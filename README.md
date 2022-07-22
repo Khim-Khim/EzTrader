@@ -7,38 +7,18 @@
 
 This project is using:
 
-- [create-react-native-dapp](https://github.com/cawfree/create-react-native-dapp) to bootstrap the project.
-- [WalletConnect v1 react-native integration](https://docs.walletconnect.com/1.0/quick-start/dapps/react-native) for authenthication (we use a slightly modiefied version, located in `./src/WalletConnect` to allow to modify the `enable` function of Moralis).
-- [react-moralis](https://github.com/MoralisWeb3/react-moralis) for react hooks
+- [Hardhat](https://github.com/NomicFoundation/hardhat) cho việc deloy và testing.
+- [We3.js](https://github.com/ChainSafe/web3.js) Cho việc tương tác với các contract và transaction.
+- [Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) Cho các việc lập trình và update smart contract.
 
-There are many components in this boilerplate that do not require an active web3 provider, they use Moralis Web3 API. Moralis supports the most popular blockchains and their test networks. You can find a list of all available networks in [Moralis Supported Chains](https://docs.moralis.io/moralis-server/web3-sdk/intro#supported-chains)
-
-Please check the [official documentation of Moralis](https://docs.moralis.io/#user) for all the functionalities of Moralis.
 
 Check the corresponding docs for additional information and help.
 
-![Iphone demo 2 (2)](https://user-images.githubusercontent.com/9363303/152293950-b0ddd2e9-2c6e-43d2-81ef-60dad43f21a5.gif)
-
-# ⭐️ `Star us`
-
-If this boilerplate helps you build Ethereum mobile dapps faster - please star this project, every star makes us very happy!
-
-# 🤝 `Need help?`
-
-If you need help with setting up the boilerplate or have other questions - don't hesitate to write in our community forum and we will check asap. [Forum link](https://forum.moralis.io/t/ethereum-react-native-boilerplate-questions/4511). The best thing about this boilerplate is the super active community ready to help at any time! We help each other.
-
-# 🚀 Quick Start
 
 💿 Install all dependencies:
 
 ```sh
-cd ethereum-react-native-boilerplate
-yarn install
-
-cd ios
-pod install
-
-cd ..
+npm install
 ```
 
 🚴‍♂️ Run your App:
