@@ -1,21 +1,21 @@
 # OSAKA METAHOURSE EXCHANGE CONTRACTS
 
-> Áp dụng công nghệ blockchain vào trao đổi và mua bán
+> Applying blockchain technology to exchange and purchase
 
 [![BAP SOFTWARE](https://bap-software.net/wp-content/uploads/2020/01/logo-bap-software-1.png)](https://bap-software.net/en/)
+
+# Spectre verification
+
 
 
 This project is using:
 
-- [Hardhat](https://github.com/NomicFoundation/hardhat) cho việc deloy và testing.
-- [We3.js](https://github.com/ChainSafe/web3.js) Cho việc tương tác với các contract và transaction.
-- [Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) Cho các việc lập trình và update smart contract.
+- [Hardhat](https://github.com/NomicFoundation/hardhat) for deloying and testing.
+- [We3.js](https://github.com/ChainSafe/web3.js) For interacting with contracts and transactions..
+- [Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts) For coding and updating smart contracts.
 
 
-Check the corresponding docs for additional information and help.
-
-
-💿 Install all dependencies:
+Install all dependencies:
 
 ```sh
 npm install
